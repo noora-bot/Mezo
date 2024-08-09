@@ -5,7 +5,7 @@ handler.all = async function(m) {
   const vn = 'https://f.uguu.se/EFiiWDly.mp3';
   const chat = global.db.data.chats[m.chat];
   
-  if (/^شعوذه|شعوزه|شعوذة$/i.test(m.text) && !chat.isBanned) {
+  if (/^احا$/i.test(m.text) && !chat.isBanned) {
   
     conn.sendPresenceUpdate('recording', m.chat);
     
