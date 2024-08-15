@@ -148,6 +148,10 @@ conn.relayMessage(m.chat, { viewOnceMessage: { message: { interactiveMessage: { 
             buttonParamsJson: '{"display_text":"⌈🚀╎الدردشه المجهوله╎🚀⌋","id":".chathom"}'
                    },
                    {
+                      name: "quick_reply",
+            buttonParamsJson: '{"display_text":"مطورين","id":".المطور"}'
+                   },
+                   {
              name: "cta_url",
              buttonParamsJson: '{"display_text":"⌈📲╎قـنـاة الـمـطـور╎📲⌋","url":"https://whatsapp.com/channel/0029Vag5dT01t90dVIah1X1p","merchant_url":"https://whatsapp.com/channel/0029Vag5dT01t90dVIah1X1p"}'
                           }
