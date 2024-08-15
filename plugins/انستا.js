@@ -1,70 +1,60 @@
-import fetch from 'node-fetch';
-import axios from 'axios';
-import instagramGetUrl from 'instagram-url-direct';
-import {instagram} from '@xct007/frieren-scraper';
-import {instagramdl} from '@bochilteam/scraper';
-import instagramDl from '@sasmeee/igdl';
-import {fileTypeFromBuffer} from 'file-type';
-const handler = async (m, {conn, args, command, usedPrefix}) => {
-  if (!args[0]) throw `*[❗معلومه❗] امر خاطئ اكتب: ${usedPrefix + command}* https://www.instagram.com/reel/C5GSbqyKXeN/?igsh=Z293NGlmbzRhdGFl`;
-  m.reply(global.wait);
-  try {
-const img = await instagramDl(args[0]);
-for (let i = 0; i < img.length; i++) {
-    const bufferInfo = await getBuffer(img[i].download_link);
-        if (bufferInfo.detectedType.mime.startsWith('image/')) {
-            await conn.sendMessage(m.chat, {image: {url: img[i].download_link}}, {quoted: m});
-        } else if (bufferInfo.detectedType.mime.startsWith('video/')) {
-            await conn.sendMessage(m.chat, {video: {url: img[i].download_link }}, {quoted: m});
-        }
-}
-  } catch {   
-  try {
-    const datTa = await instagram.download(args[0]);
-    for (const urRRl of datTa) {
-      const shortUrRRl = await (await fetch(`https://tinyurl.com/api-create.php?url=${args[0]}`)).text();
-      const tXXxt = `🔗 *Url:* ${shortUrRRl}`.trim();
-      conn.sendFile(m.chat, urRRl.url, 'error.mp4', tXXxt, m);
-      await new Promise((resolve) => setTimeout(resolve, 10000));
-    }
-  } catch {
-      try {
-        const resultss = await instagramGetUrl(args[0]).url_list[0];
-        const shortUrl2 = await (await fetch(`https://tinyurl.com/api-create.php?url=${args[0]}`)).text();
-        const txt2 = `🔗 *Url:* ${shortUrl2}`.trim();
-        await conn.sendFile(m.chat, resultss, 'error.mp4', txt2, m);
-      } catch {
-        try {
-          const resultssss = await instagramdl(args[0]);
-          const shortUrl3 = await (await fetch(`https://tinyurl.com/api-create.php?url=${args[0]}`)).text();
-          const txt4 = `🔗 *Url:* ${shortUrl3}`.trim();
-          for (const {url} of resultssss) await conn.sendFile(m.chat, url, 'error.mp4', txt4, m);
-        } catch {
-          try {
-            const human = await fetch(`https://api.lolhuman.xyz/api/instagram?apikey=${lolkeysapi}&url=${args[0]}`);
-            const json = await human.json();
-            const videoig = json.result;
-            const shortUrl1 = await (await fetch(`https://tinyurl.com/api-create.php?url=${args[0]}`)).text();
-            const txt1 = `🔗 *Url:* ${shortUrl1}`.trim();
-            await conn.sendFile(m.chat, videoig, 'error.mp4', txt1, m);
-          } catch {
-            throw `*[❗معلومه❗] حدث خطأ*`;
-          }
-        }
-      }
-    }
-  }
-};
-handler.command = /^(instagramdl|instagram|انستغرام|ig|انستا|instagram2|igdl2|ig2|instagramdl3|instagram3|igdl3|ig3)$/i;
-export default handler;
+import fg from 'api-dylux' 
+import axios from 'axios'
+import cheerio from 'cheerio'
+import { tiktok } from "@xct007/frieren-scraper";
+let generateWAMessageFromContent = (await import(global.baileys)).default
+import { tiktokdl } from '@bochilteam/scraper'
+let handler = async (m, { conn, text, args, usedPrefix, command}) => {
+if (!text) return conn.reply(m.chat, `${lenguajeGB['smsAvisoMG']()}${mid.smsTikTok2}\n*${usedPrefix + command} https://vm.tiktok.com/ZM6n8r8Dk/*`, fkontak,  m)
+if (!/(?:https:?\/{2})?(?:w{3}|vm|vt|t)?\.?tiktok.com\/([^\s&]+)/gi.test(text)) return conn.reply(m.chat, `${lenguajeGB['smsAvisoFG']()}${mid.smsTikTok3}`, fkontak,  m)  
+await conn.reply(m.chat, `${lenguajeGB['smsAvisoEG']()}${mid.smsTikTok4}`, fkontak,  m) 
+try {
+const dataF = await tiktok.v1(args[0])
+conn.sendFile(m.chat, dataF.play, 'tiktok.mp4', `⛱️ ${mid.user}\n*${nickname}*\n${description ? '\n⛱️ ${mid.smsYT14}\n*${description}*' : ''}\n${wm}`.trim(), m) 
+} catch (e1) {
+try {
+const tTiktok = await tiktokdlF(args[0])
+conn.sendFile(m.chat, tTiktok.video, 'tiktok.mp4', `⛱️ ${mid.user}\n*${nickname}*\n${description ? '\n⛱️ ${mid.smsYT14}\n*${description}*' : ''}\n${wm}`.trim(), m) 
+} catch (e2) {
+try {
+let p = await fg.tiktok(args[0]) 
+conn.sendFile(m.chat, p.nowm, 'tiktok.mp4', `⛱️ ${mid.user}\n*${nickname}*\n${description ? '\n⛱️ ${mid.smsYT14}\n*${description}*' : ''}\n${wm}`.trim(), m)
+} catch (e3) {
+try { 
+const { author: { nickname }, video, description } = await tiktokdl(args[0])
+const url = video.no_watermark2 || video.no_watermark || 'https://tikcdn.net' + video.no_watermark_raw || video.no_watermark_hd
+conn.sendFile(m.chat, url, 'tiktok.mp4', `⛱️ ${mid.user}\n*${nickname}*\n${description ? `\n⛱️ ${mid.smsYT14}\n*${description}*` : ''}\n${wm}`.trim(), m)
+handler.limit = 2
+} catch (e4) {
+try{
+const response=await fetch(`https://api.lolhuman.xyz/api/tiktok?apikey=${lolkeysapi}&url=${text}`)
+const dataR = await response.json()
+conn.sendFile(m.chat,dataR.result.link, 'tiktok.mp4', `⛱️ ${mid.user}\n*${dataR.result.author.username}*\n${wm}`.trim(), m)
+/*const response=await fetch(`https://delirius-api-oficial.vercel.app/api/tiktok?url=${args[0]}`)
+const dataR = await response.json()
+const { author,title, meta} = dataR.data
+conn.sendFile(m.chat, meta.media[0].org, 'tiktok.mp4', `⛱️ ${mid.user}\n*${author.nickname}*\n${wm}`.trim(), m) */
+} catch (e) {
+await conn.reply(m.chat, `${lenguajeGB['smsMalError3']()}#report ${lenguajeGB['smsMensError2']()} ${usedPrefix + command}\n\n${wm}`, fkontak, m)
+console.log(`❗❗ ${lenguajeGB['smsMensError2']()} ${usedPrefix + command} ❗❗`)
+console.log(e)
+handler.limit = false
+}}}}}}
+handler.help = ['tiktok']
+handler.tags = ['dl']
+handler.command = /^(tt|tiktok)(dl|nowm|تيكتوك)?$/i
+//handler.limit = 2
+export default handler
 
-const getBuffer = async (url, options) => {
-    options = options || {};
-    const res = await axios({method: 'get', url, headers: {'DNT': 1, 'Upgrade-Insecure-Request': 1}, ...options, responseType: 'arraybuffer'});
-    const buffer = Buffer.from(res.data, 'binary');
-    const detectedType = await fileTypeFromBuffer(buffer);
-    if (!detectedType || (detectedType.mime !== 'image/jpeg' && detectedType.mime !== 'image/png' && detectedType.mime !== 'video/mp4')) {
-        return null;
-    }
-    return { buffer, detectedType };
-};
+async function tiktokdlF(url) {
+if (!/tiktok/.test(url)) return 'Enlace incorrecto';
+const gettoken = await axios.get("https://tikdown.org/id");
+const $ = cheerio.load(gettoken.data);
+const token = $("#download-form > input[type=hidden]:nth-child(2)").attr( "value" );
+const param = { url: url, _token: token };
+const { data } = await axios.request("https://tikdown.org/getAjax?", { method: "post", data: new URLSearchParams(Object.entries(param)), headers: { "content-type": "application/x-www-form-urlencoded; charset=UTF-8", "user-agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" }, });
+var getdata = cheerio.load(data.html);
+if (data.status) {
+return { status: true, thumbnail: getdata("img").attr("src"), video: getdata("div.download-links > div:nth-child(1) > a").attr("href"), audio: getdata("div.download-links > div:nth-child(2) > a").attr("href"), }} else
+return { status: false }}
+
