@@ -144,6 +144,21 @@ conn.relayMessage(m.chat, { viewOnceMessage: { message: { interactiveMessage: { 
                 messageParamsJson: ''
               },
               {
+                buttons: [
+
+
+                          {
+                              name: 'single_select',
+                              buttonParamsJson: JSON.stringify({
+                                  title: '⌈🛡╎الــقــوائـــم╎🛡⌋',
+                                  sections: [
+                                      {
+                                        header: 'الــقـ📽️ـســم الــثــانــي عــشــر',
+                                                  title: 'استدعاء_قسم_الافلام #الافلام',
+                                                  description: '',
+                                                  id: '.م13'
+                                              },
+                                              {
             name: "quick_reply",
             buttonParamsJson: '{"display_text":"⌈🚀╎الدردشه المجهوله╎🚀⌋","id":".chathom"}'
                    },
