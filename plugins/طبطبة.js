@@ -12,5 +12,5 @@ const handler = async (m, {conn}) => {
     conn.sendFile(m.chat, stiker, null, {asSticker: true});
   } catch (e) { }
 };
-handler.command = /^(pat|طبطبه|cariños|mimos|patt)$/i;
+handler.command = /^(pat|طببه|cariños|mimos|patt)$/i;
 export default handler;
