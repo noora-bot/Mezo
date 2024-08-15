@@ -36,8 +36,8 @@ conn.relayMessage(m.chat, { viewOnceMessage: { message: { interactiveMessage: { 
 > •رتــبــتــك : ${role}
 *• ──╾⊱﹝🖥﹞⊰╼── •*
 ╗───¤مــعلــومــات الــ🤖بــوت
-> •إســم الــبــوت: زينو🐢ن 
-> •الــمــطــور :Mohamed Elsony\n> FLEX-MD
+> إســم الــبــوت:بلـوتو 
+> •الــمــطــور :\nMohamed Elsony\n> FLEX-MD
 > •مــدة الــتــشــغــيل : ${uptime}
 *• ──╾⊱﹝🖥﹞⊰╼── •*
 *~⌬ تــ✍︎ــوقــيــع ↡~*🖋️
