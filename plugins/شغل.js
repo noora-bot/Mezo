@@ -93,7 +93,7 @@ const handler = async (m, { command, usedPrefix, conn, args, text }) => {
   }
 };
 
-handler.command = /^(شغل|mp3.1|mp3.2|mp3.3|mp4.1|mp4.2|mp4.3)$/i;
+handler.command = /^(شغول|mp3.1|mp3.2|mp3.3|mp4.1|mp4.2|mp4.3)$/i;
 export default handler;
 
 async function search(query, options = {}) {
