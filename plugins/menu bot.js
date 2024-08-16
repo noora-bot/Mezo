@@ -82,7 +82,7 @@ conn.relayMessage(m.chat, { viewOnceMessage: { message: { interactiveMessage: { 
                                                   header: 'طريقه استخدام البوت',
                                                   title: 'استخدام البوت',
                                                   description: '',
-                                                  id: '.م4'
+                                                  id: '.',
                                              }
                                           ]
                                       }
@@ -109,7 +109,7 @@ conn.relayMessage(m.chat, { viewOnceMessage: { message: { interactiveMessage: { 
           }
       }
   }, {});
-}
+}  
 
 handler.help = ['info'];
 handler.tags = ['main'];
