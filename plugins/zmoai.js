@@ -10,7 +10,7 @@ const handler = async (m, {
   usedPrefix,
   command
 }) => {
-  const dbChat = db.data.database.txt2img[m.chat] || (db.data.database.txt2img[m.chat] = {});
+  const dbChat = db.data.database.ارسم[m.chat] || (db.data.database.ارسم[m.chat] = {});
   const infoMsg = ❓ *Query input tidak ditemukan!*\n\nContoh penggunaan:\n1. *Mengatur Model:* \${usedPrefix + command} --model <index>\\n2. *Mengatur Style:* \${usedPrefix + command} --style <index>\\n3. *Mengatur Sampler:* \${usedPrefix + command} --sampler <index>\\n4. *Menampilkan Gambar:* \${usedPrefix + command} [query] --model <index> --style <index> --sampler <index>\\n\nPastikan untuk mengganti \<index>\` dengan nilai yang sesuai.`;
   if (!text) return m.reply(infoMsg);
   const prompt = /^\s*--/.test(text.trim()) ? null : text.trim()?.split(/\s--\w+\s\d+/)[0]?.trim() || null;
@@ -65,7 +65,7 @@ const handler = async (m, {
     m.react(eror);
   }
 };
-handler.help = ["txt2img [query] --option"];
+handler.help = ["ارسم [query] --option"];
 handler.tags = ["ai"];
 handler.command = /^(ارسم)$/i;
 export default handler;
