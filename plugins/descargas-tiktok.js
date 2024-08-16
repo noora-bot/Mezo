@@ -3,7 +3,7 @@ import axios from 'axios'
 import cheerio from 'cheerio'
 import { tiktok } from "@xct007/frieren-scraper";
 let generateWAMessageFromContent = (await import(global.baileys)).default
-import { tiktokdl } from 'https://api.diego-ofc.store/dash/
+import { tiktokdl } from '@bochilteam/scraper'
 let handler = async (m, { conn, text, args, usedPrefix, command}) => {
 if (!text) return conn.reply(m.chat, `${lenguajeGB['smsAvisoMG']()}${mid.smsTikTok2}\n*${usedPrefix + command} https://vm.tiktok.com/ZM6n8r8Dk/*`, fkontak,  m)
 if (!/(?:https:?\/{2})?(?:w{3}|vm|vt|t)?\.?tiktok.com\/([^\s&]+)/gi.test(text)) return conn.reply(m.chat, `${lenguajeGB['smsAvisoFG']()}${mid.smsTikTok3}`, fkontak,  m)  
@@ -27,10 +27,13 @@ conn.sendFile(m.chat, url, 'tiktok.mp4', `⛱️ ${mid.user}\n*${nickname}*\n${d
 handler.limit = 2
 } catch (e4) {
 try{
-const response=await fetch(`https://api.diego-ofc.store/dash/?url=${args[0]}`)
+const response=await fetch(`https://api.lolhuman.xyz/api/tiktok?apikey=${lolkeysapi}&url=${text}`)
+const dataR = await response.json()
+conn.sendFile(m.chat,dataR.result.link, 'tiktok.mp4', `⛱️ ${mid.user}\n*${dataR.result.author.username}*\n${wm}`.trim(), m)
+/*const response=await fetch(`https://delirius-api-oficial.vercel.app/api/tiktok?url=${args[0]}`)
 const dataR = await response.json()
 const { author,title, meta} = dataR.data
-conn.sendFile(m.chat, meta.media[0].org, 'tiktok.mp4', `⛱️ ${mid.user}\n*${author.nickname}*\n${wm}`.trim(), m) 
+conn.sendFile(m.chat, meta.media[0].org, 'tiktok.mp4', `⛱️ ${mid.user}\n*${author.nickname}*\n${wm}`.trim(), m) */
 } catch (e) {
 await conn.reply(m.chat, `${lenguajeGB['smsMalError3']()}#report ${lenguajeGB['smsMensError2']()} ${usedPrefix + command}\n\n${wm}`, fkontak, m)
 console.log(`❗❗ ${lenguajeGB['smsMensError2']()} ${usedPrefix + command} ❗❗`)
@@ -39,7 +42,7 @@ handler.limit = false
 }}}}}}
 handler.help = ['tiktok']
 handler.tags = ['dl']
-handler.command = /^(تيك|tiktok)(تيك|تيكتوك)?$/i
+handler.command = /^(tt|tiktok)(dl|nowm|تيكتوك)?$/i
 //handler.limit = 2
 export default handler
 
