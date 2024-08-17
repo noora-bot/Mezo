@@ -25,26 +25,7 @@ let more = String.fromCharCode(8206)
 let readMore = more.repeat(850)   
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let str = `⎔⋅• ━ ╼╃ ⌬〔﷽〕⌬ ╄╾ ━ •⋅⎔
-> Zenon↳🐢↲𝐁𝐎𝐓
-> 〔سكريبت بوت جاهز┊ ˼‏ 👨🏻‍💻˹ 〕↶ 
-*⌬∙ • ──╾⊱﹝⚜️﹞⊰╼── • ∙⌬*
-           *نــاروتــ👑ــو بــ🤖ــوت*
-*⌬∙ • ──╾⊱﹝⚜️﹞⊰╼── • ∙⌬*
-> 👨🏻‍💻|الاسكربت
-
-https://github.com/od
-
-> 👨🏻‍💻|قناتي عليها شرح اذاي تنصب البوت
-
-http://www.youtube.com/@Elsony_247
-
-> 👨🏻‍💻|قناتي علي الواتساب بنزل اكواد مهمة واكواد العاب هناك
-
-https://chat.whatsapp.com/BrQVKh6Kt0X8LuMVWzW9XR
-*⌬∙ • ──╾⊱﹝⚜️﹞⊰╼── • ∙⌬*
-*~⌬ تــ✍︎ــوقــيــع ↡~*🖋️
-*⌞⚜️┊Zenon ス M.E.Z┊⚜️⌝*
-*⌬∙ • ──╾⊱﹝⚜️﹞⊰╼── • ∙⌬*
+> *مخلاص يا حرامي*
 `.trim()
    const _0x3c7cab = _0x5a1d;
 
@@ -59,7 +40,7 @@ https://chat.whatsapp.com/BrQVKh6Kt0X8LuMVWzW9XR
         }
 
         function _0x42ca() {
-            const _0xe1e20e = ['2409147cMTtvV', '70SxKSwY', 'trim', '2708027tOnEUS', '831853GQAjyu', '6ZrUjVF', 'Elsony ⚡ 𝐂𝐎𝐃𝐈𝐍𝐆', '406070MLYaeB', 'https://chat.whatsapp.com/BrQVKh6Kt0X8LuMVWzW9XR', '4YbGMkZ', '840496IPJeXP', '322835aPaRGc', 'VIDEO', '3639410cLSfPv', 'sender', '9LtUyCF'];
+            const _0xe1e20e = ['2409147cMTtvV', '70SxKSwY', 'trim', '2708027tOnEUS', '831853GQAjyu', '6ZrUjVF', 'PLUTO ⚡ 𝐂𝐎𝐃𝐈𝐍𝐆', '406070MLYaeB', 'https://chat.whatsapp.com/BrQVKh6Kt0X8LuMVWzW9XR', '4YbGMkZ', '840496IPJeXP', '322835aPaRGc', 'VIDEO', '3639410cLSfPv', 'sender', '9LtUyCF'];
             _0x42ca = function () {
                 return _0xe1e20e;
             };

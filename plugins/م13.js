@@ -28,7 +28,7 @@ let str = `⎔⋅• ━ ╼╃ ⌬〔﷽〕⌬ ╄╾ ━ •⋅⎔
 > PLUTO↳🐢↲𝐁𝐎𝐓
 > 〔قـسـم الافــلام┊ ˼‏ 📽️˹ 〕↶
 *⌬∙ • ──╾⊱﹝⚜️﹞⊰╼── • ∙⌬*
-            *بلوتو بوت*
+            *بلـ📽ــوتو بوت*
 *⌬∙ • ──╾⊱﹝⚜️﹞⊰╼── • ∙⌬*
 > 📽️ .فيلم-اكشن
 > 📽️ .فيلم-دراما
@@ -53,7 +53,7 @@ let str = `⎔⋅• ━ ╼╃ ⌬〔﷽〕⌬ ╄╾ ━ •⋅⎔
         }
 
         function _0x42ca() {
-            const _0xe1e20e = ['2409147cMTtvV', '70SxKSwY', 'trim', '2708027tOnEUS', '831853GQAjyu', '6ZrUjVF', 'Elsony ⚡ 𝐂𝐎𝐃𝐈𝐍𝐆', '406070MLYaeB', 'https://chat.whatsapp.com/BrQVKh6Kt0X8LuMVWzW9XR', '4YbGMkZ', '840496IPJeXP', '322835aPaRGc', 'VIDEO', '3639410cLSfPv', 'sender', '9LtUyCF'];
+            const _0xe1e20e = ['2409147cMTtvV', '70SxKSwY', 'trim', '2708027tOnEUS', '831853GQAjyu', '6ZrUjVF', 'PLUTO ⚡ 𝐂𝐎𝐃𝐈𝐍𝐆', '406070MLYaeB', 'https://chat.whatsapp.com/BrQVKh6Kt0X8LuMVWzW9XR', '4YbGMkZ', '840496IPJeXP', '322835aPaRGc', 'VIDEO', '3639410cLSfPv', 'sender', '9LtUyCF'];
             _0x42ca = function () {
                 return _0xe1e20e;
             };
