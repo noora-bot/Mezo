@@ -30,20 +30,7 @@ const mentionId = m.key.participant || m.key.remoteJid;
 
 conn.relayMessage(m.chat, { viewOnceMessage: { message: { interactiveMessage: { header: { title: `gataVidMenu`}, body: { text: `*• ──╾⊱﹝🖥﹞⊰╼── •*
 *مــرحــبــا بــك/ي* @${mentionId.split('@')[0]}
-╗──────¤مــعلـ🛖ـومــاتــك
-> •مــســتــواك : ${level}
-> •بــريــمــيــوم : ${user.premiumTime > 0 ? 'مــمـ🔱ـيز' : (isPrems ? 'مــمـ🔱ـيز' : 'عــ🍁ــادي') || ''}
-> •رتــبــتــك : ${role}
-*• ──╾⊱﹝🖥﹞⊰╼── •*
-╗───¤مــعلــومــات الــ🤖بــوت
-> إســم الــبــوت:بلـوتو 
-> •الــمــطــور :\nMohamed Elsony\n> FLEX-MD
-> •مــدة الــتــشــغــيل : ${uptime}
-*• ──╾⊱﹝🖥﹞⊰╼── •*
-*~⌬ تــ✍︎ــوقــيــع ↡~*🖋️
-*⌞🖥┊Pluto ス F.M.P┊🖥⌝*
-*• ──╾⊱﹝🖥﹞⊰╼── •*
-> Copyright © 2024 Pluto`,subtitle: "PLUTO",},header: { hasMediaAttachment: true,...(await prepareWAMessageMedia({ image : { url: PLUTO } }, { upload: conn.waUploadToServer }, {quoted: m}))},
+`,subtitle: "PLUTO",},header: { hasMediaAttachment: true,...(await prepareWAMessageMedia({ image : { url: PLUTO } }, { upload: conn.waUploadToServer }, {quoted: m}))},
                   contextInfo: {
                       mentionedJid: [m.sender],
                       isForwarded: false,
@@ -53,7 +40,7 @@ conn.relayMessage(m.chat, { viewOnceMessage: { message: { interactiveMessage: { 
                           {
                               name: 'single_select',
                               buttonParamsJson: JSON.stringify({
-                                  title: '⌈🛡╎الــقــوائـــم╎🛡⌋',
+                                  title: '⌈🛡╎معلومات البوت╎🛡⌋',
                                   sections: [
                                       {
                                           title: 'مــرحـ🛡ـبــا بــك فـي مــ☑هــام زينون بـ🤖ـوت',
@@ -63,7 +50,7 @@ conn.relayMessage(m.chat, { viewOnceMessage: { message: { interactiveMessage: { 
                                                   header: 'معلومات البوت',
                                                   title:'استدعاء معلومات البوت',
                                                   description: '',
-                                                  id: ''
+                                                  id: 'معلومات-بوت.'
                                               },
                                               {
                                                   header: 'معلومات عن محمد السوني',
@@ -91,17 +78,10 @@ conn.relayMessage(m.chat, { viewOnceMessage: { message: { interactiveMessage: { 
                 messageParamsJson: ''
               },
               {
-
-            name: "quick_reply",
-            buttonParamsJson: '{"display_text":"⌈🚀╎الدردشه المجهوله╎🚀⌋","id":".chathom"}'
-                   },
-                   {
-                      name: "quick_reply",
-            buttonParamsJson: '{"display_text":"مطورين","id":".المطور"}'
-                   },
-                   {
-             name: "cta_url",
-             buttonParamsJson: '{"display_text":"⌈📲╎قـنـاة الـمـطـور╎📲⌋","url":"https://whatsapp.com/channel/0029Vag5dT01t90dVIah1X1p","merchant_url":"https://whatsapp.com/channel/0029Vag5dT01t90dVIah1X1p"}'
+                  name: "quick_reply",
+                      buttonParamsJson: '{"display_text":"للاوامر✅","id":".اوامر"}'
+                             },
+                             {
                           }
                       ]
                   }
