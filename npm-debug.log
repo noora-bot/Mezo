@@ -805,107 +805,107 @@
 723 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@aws-crypto/supports-web-crypto/package.json
 724 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@aws-crypto/util/package.json
 725 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@babel/runtime/package.json
-726 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@brandond/findthelyrics/package.json
-727 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@discordjs/builders/package.json
-728 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@discordjs/collection/package.json
-729 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@eshaz/web-worker/package.json
-730 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@eslint/eslintrc/package.json
-731 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@eslint/js/package.json
-732 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/client-cognito-identity/package.json
-733 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/client-sso/package.json
-734 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/client-sso-oidc/package.json
-735 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/client-sts/package.json
-736 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/core/package.json
-737 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/credential-provider-cognito-identity/package.json
-738 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/credential-provider-env/package.json
-739 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/credential-provider-http/package.json
-740 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/credential-provider-ini/package.json
-741 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/credential-provider-node/package.json
-742 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/credential-provider-process/package.json
-743 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/credential-provider-sso/package.json
-744 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/credential-provider-web-identity/package.json
-745 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/credential-providers/package.json
-746 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/middleware-host-header/package.json
-747 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/middleware-logger/package.json
-748 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/middleware-recursion-detection/package.json
-749 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/middleware-user-agent/package.json
-750 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/region-config-resolver/package.json
-751 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/token-providers/package.json
-752 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/types/package.json
-753 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/util-endpoints/package.json
-754 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/util-locate-window/package.json
-755 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/util-user-agent-browser/package.json
-756 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/util-user-agent-node/package.json
-757 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@eslint-community/eslint-utils/package.json
-758 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@eslint-community/regexpp/package.json
-759 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@bochilteam/scraper/package.json
-760 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@bochilteam/scraper-bmkg/package.json
-761 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@bochilteam/scraper-downloader/package.json
-762 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@bochilteam/scraper-games/package.json
-763 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@bochilteam/scraper-images/package.json
-764 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@bochilteam/scraper-news/package.json
-765 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@bochilteam/scraper-others/package.json
-766 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@bochilteam/scraper-primbon/package.json
-767 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@bochilteam/scraper-religions/package.json
-768 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@bochilteam/scraper-sosmed/package.json
-769 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@bochilteam/scraper-texts/package.json
+726 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/client-cognito-identity/package.json
+727 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/client-sso/package.json
+728 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/client-sso-oidc/package.json
+729 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/client-sts/package.json
+730 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/core/package.json
+731 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/credential-provider-cognito-identity/package.json
+732 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/credential-provider-env/package.json
+733 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/credential-provider-http/package.json
+734 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/credential-provider-ini/package.json
+735 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/credential-provider-node/package.json
+736 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/credential-provider-process/package.json
+737 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/credential-provider-sso/package.json
+738 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/credential-provider-web-identity/package.json
+739 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/credential-providers/package.json
+740 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/middleware-host-header/package.json
+741 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/middleware-logger/package.json
+742 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/middleware-recursion-detection/package.json
+743 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/middleware-user-agent/package.json
+744 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/region-config-resolver/package.json
+745 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/token-providers/package.json
+746 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/types/package.json
+747 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/util-endpoints/package.json
+748 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/util-locate-window/package.json
+749 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/util-user-agent-browser/package.json
+750 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/util-user-agent-node/package.json
+751 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@brandond/findthelyrics/package.json
+752 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@bochilteam/scraper/package.json
+753 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@bochilteam/scraper-bmkg/package.json
+754 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@bochilteam/scraper-downloader/package.json
+755 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@bochilteam/scraper-games/package.json
+756 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@bochilteam/scraper-images/package.json
+757 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@bochilteam/scraper-news/package.json
+758 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@bochilteam/scraper-others/package.json
+759 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@bochilteam/scraper-primbon/package.json
+760 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@bochilteam/scraper-religions/package.json
+761 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@bochilteam/scraper-sosmed/package.json
+762 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@bochilteam/scraper-texts/package.json
+763 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@discordjs/builders/package.json
+764 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@discordjs/collection/package.json
+765 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@eshaz/web-worker/package.json
+766 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@eslint/eslintrc/package.json
+767 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@eslint/js/package.json
+768 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@eslint-community/eslint-utils/package.json
+769 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@eslint-community/regexpp/package.json
 770 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@green-code/music-track-data/package.json
 771 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@hapi/boom/package.json
 772 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@hapi/hoek/package.json
-773 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@javascript-obfuscator/escodegen/package.json
-774 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@javascript-obfuscator/estraverse/package.json
-775 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@humanwhocodes/config-array/package.json
-776 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@humanwhocodes/module-importer/package.json
-777 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@humanwhocodes/object-schema/package.json
-778 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@nechlophomeriaa/spotifydl/package.json
-779 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@mongodb-js/saslprep/package.json
-780 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@jimp/bmp/package.json
-781 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@jimp/core/package.json
-782 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@jimp/custom/package.json
-783 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@jimp/gif/package.json
-784 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@jimp/jpeg/package.json
-785 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@jimp/plugin-blit/package.json
-786 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@jimp/plugin-blur/package.json
-787 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@jimp/plugin-circle/package.json
-788 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@jimp/plugin-color/package.json
-789 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@jimp/plugin-contain/package.json
-790 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@jimp/plugin-cover/package.json
-791 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@jimp/plugin-crop/package.json
-792 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@jimp/plugin-displace/package.json
-793 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@jimp/plugin-dither/package.json
-794 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@jimp/plugin-fisheye/package.json
-795 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@jimp/plugin-flip/package.json
-796 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@jimp/plugin-gaussian/package.json
-797 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@jimp/plugin-invert/package.json
-798 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@jimp/plugin-mask/package.json
-799 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@jimp/plugin-normalize/package.json
-800 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@jimp/plugin-print/package.json
-801 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@jimp/plugin-resize/package.json
-802 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@jimp/plugin-rotate/package.json
-803 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@jimp/plugin-scale/package.json
-804 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@jimp/plugin-shadow/package.json
-805 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@jimp/plugin-threshold/package.json
-806 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@jimp/plugins/package.json
-807 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@jimp/png/package.json
-808 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@jimp/tiff/package.json
-809 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@jimp/types/package.json
-810 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@jimp/utils/package.json
+773 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@humanwhocodes/config-array/package.json
+774 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@humanwhocodes/module-importer/package.json
+775 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@humanwhocodes/object-schema/package.json
+776 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@jimp/bmp/package.json
+777 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@jimp/core/package.json
+778 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@jimp/custom/package.json
+779 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@jimp/gif/package.json
+780 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@jimp/jpeg/package.json
+781 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@jimp/plugin-blit/package.json
+782 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@jimp/plugin-blur/package.json
+783 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@jimp/plugin-circle/package.json
+784 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@jimp/plugin-color/package.json
+785 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@jimp/plugin-contain/package.json
+786 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@jimp/plugin-cover/package.json
+787 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@jimp/plugin-crop/package.json
+788 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@jimp/plugin-displace/package.json
+789 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@jimp/plugin-dither/package.json
+790 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@jimp/plugin-fisheye/package.json
+791 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@jimp/plugin-flip/package.json
+792 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@jimp/plugin-gaussian/package.json
+793 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@jimp/plugin-invert/package.json
+794 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@jimp/plugin-mask/package.json
+795 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@jimp/plugin-normalize/package.json
+796 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@jimp/plugin-print/package.json
+797 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@jimp/plugin-resize/package.json
+798 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@jimp/plugin-rotate/package.json
+799 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@jimp/plugin-scale/package.json
+800 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@jimp/plugin-shadow/package.json
+801 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@jimp/plugin-threshold/package.json
+802 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@jimp/plugins/package.json
+803 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@jimp/png/package.json
+804 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@jimp/tiff/package.json
+805 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@jimp/types/package.json
+806 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@jimp/utils/package.json
+807 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@javascript-obfuscator/escodegen/package.json
+808 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@javascript-obfuscator/estraverse/package.json
+809 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@mongodb-js/saslprep/package.json
+810 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@nechlophomeriaa/spotifydl/package.json
 811 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@nodelib/fs.scandir/package.json
 812 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@nodelib/fs.stat/package.json
 813 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@nodelib/fs.walk/package.json
 814 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@sapphire/async-queue/package.json
 815 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@sapphire/shapeshift/package.json
-816 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@protobufjs/aspromise/package.json
-817 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@protobufjs/base64/package.json
-818 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@protobufjs/codegen/package.json
-819 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@protobufjs/eventemitter/package.json
-820 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@protobufjs/fetch/package.json
-821 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@protobufjs/float/package.json
-822 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@protobufjs/inquire/package.json
-823 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@protobufjs/path/package.json
-824 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@protobufjs/pool/package.json
-825 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@protobufjs/utf8/package.json
-826 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@sasmeee/igdl/package.json
+816 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@sasmeee/igdl/package.json
+817 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@protobufjs/aspromise/package.json
+818 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@protobufjs/base64/package.json
+819 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@protobufjs/codegen/package.json
+820 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@protobufjs/eventemitter/package.json
+821 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@protobufjs/fetch/package.json
+822 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@protobufjs/float/package.json
+823 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@protobufjs/inquire/package.json
+824 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@protobufjs/path/package.json
+825 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@protobufjs/pool/package.json
+826 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@protobufjs/utf8/package.json
 827 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@shineiichijo/marika/package.json
 828 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@sindresorhus/is/package.json
 829 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@socket.io/component-emitter/package.json
@@ -949,36 +949,36 @@
 867 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@smithy/util-uri-escape/package.json
 868 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@smithy/util-utf8/package.json
 869 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@szmarczak/http-timer/package.json
-870 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@swc/helpers/package.json
-871 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@thi.ng/bitstream/package.json
-872 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@thi.ng/errors/package.json
+870 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@thi.ng/bitstream/package.json
+871 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@thi.ng/errors/package.json
+872 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@swc/helpers/package.json
 873 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@tokenizer/token/package.json
 874 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@tootallnate/once/package.json
-875 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@ungap/structured-clone/package.json
-876 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@types/cacheable-request/package.json
-877 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@types/cookie/package.json
-878 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@types/cors/package.json
-879 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@types/http-cache-semantics/package.json
-880 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@types/keyv/package.json
-881 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@types/long/package.json
-882 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@types/minimatch/package.json
-883 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@types/node/package.json
-884 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@types/node-fetch/package.json
-885 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@types/responselike/package.json
-886 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@types/validator/package.json
-887 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@types/webidl-conversions/package.json
-888 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@types/whatwg-url/package.json
-889 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@types/ws/package.json
-890 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@wasm-audio-decoders/common/package.json
-891 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@wasm-audio-decoders/flac/package.json
-892 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@wasm-audio-decoders/ogg-vorbis/package.json
-893 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@vitalets/google-translate-api/package.json
-894 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@whiskeysockets/baileys/package.json
+875 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@types/cacheable-request/package.json
+876 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@types/cookie/package.json
+877 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@types/cors/package.json
+878 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@types/http-cache-semantics/package.json
+879 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@types/keyv/package.json
+880 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@types/long/package.json
+881 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@types/minimatch/package.json
+882 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@types/node/package.json
+883 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@types/node-fetch/package.json
+884 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@types/responselike/package.json
+885 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@types/validator/package.json
+886 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@types/webidl-conversions/package.json
+887 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@types/whatwg-url/package.json
+888 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@types/ws/package.json
+889 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@ungap/structured-clone/package.json
+890 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@vitalets/google-translate-api/package.json
+891 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@whiskeysockets/baileys/package.json
+892 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@wasm-audio-decoders/common/package.json
+893 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@wasm-audio-decoders/flac/package.json
+894 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@wasm-audio-decoders/ogg-vorbis/package.json
 895 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@xct007/frieren-scraper/package.json
 896 verbose installManyTop reading scoped package data from /home/runner/zenonmdbot/node_modules/@xmldom/xmldom/package.json
 897 info package.json redstar@0.0.2 No README data
-898 info package.json @wasm-audio-decoders/common@9.0.5 No README data
-899 info package.json @swc/helpers@0.3.17 No README data
+898 info package.json @swc/helpers@0.3.17 No README data
+899 info package.json @wasm-audio-decoders/common@9.0.5 No README data
 900 info package.json assert@2.0.0 assert is also the name of a node core module.
 901 info package.json buffer@5.7.1 buffer is also the name of a node core module.
 902 info package.json cfonts@3.3.0 license should be a valid SPDX license expression
@@ -992,60 +992,60 @@
 910 info package.json node-webpmux@3.2.0 license should be a valid SPDX license expression
 911 info package.json npm@2.15.12 Non-dependency in bundleDependencies: ansi-regex
 912 info package.json npm@2.15.12 Non-dependency in bundleDependencies: imurmurhash
-913 info package.json perf_hooks@0.0.1 perf_hooks is also the name of a node core module.
-914 info package.json png-js@1.0.0 No license field.
-915 info package.json process@0.11.10 process is also the name of a node core module.
-916 info package.json punycode@2.3.1 punycode is also the name of a node core module.
-917 info package.json qrcode-terminal@0.12.0 No license field.
-918 info package.json querystring@0.2.0 querystring is also the name of a node core module.
-919 info package.json querystring@0.2.0 No license field.
-920 info package.json readline@1.3.0 readline is also the name of a node core module.
-921 info package.json readline@1.3.0 license should be a valid SPDX license expression
-922 info package.json string_decoder@1.1.1 string_decoder is also the name of a node core module.
-923 info package.json ttys@0.0.3 No license field.
+913 info package.json png-js@1.0.0 No license field.
+914 info package.json process@0.11.10 process is also the name of a node core module.
+915 info package.json punycode@2.3.1 punycode is also the name of a node core module.
+916 info package.json qrcode-terminal@0.12.0 No license field.
+917 info package.json querystring@0.2.0 querystring is also the name of a node core module.
+918 info package.json querystring@0.2.0 No license field.
+919 info package.json readline@1.3.0 readline is also the name of a node core module.
+920 info package.json readline@1.3.0 license should be a valid SPDX license expression
+921 info package.json string_decoder@1.1.1 string_decoder is also the name of a node core module.
+922 info package.json ttys@0.0.3 No license field.
+923 info package.json url@0.11.3 url is also the name of a node core module.
 924 info package.json util@0.12.5 util is also the name of a node core module.
-925 info package.json url@0.11.3 url is also the name of a node core module.
-926 info package.json @bochilteam/scraper@4.2.4 license should be a valid SPDX license expression
-927 info package.json @bochilteam/scraper-bmkg@1.0.2 license should be a valid SPDX license expression
-928 info package.json @bochilteam/scraper-downloader@1.0.2 license should be a valid SPDX license expression
-929 info package.json @bochilteam/scraper-games@1.0.2 license should be a valid SPDX license expression
-930 info package.json @bochilteam/scraper-images@1.0.2 license should be a valid SPDX license expression
-931 info package.json @bochilteam/scraper-news@1.0.2 license should be a valid SPDX license expression
-932 info package.json @bochilteam/scraper-others@1.0.2 license should be a valid SPDX license expression
-933 info package.json @bochilteam/scraper-primbon@1.0.2 license should be a valid SPDX license expression
-934 info package.json @bochilteam/scraper-sosmed@1.0.5 license should be a valid SPDX license expression
-935 info package.json @bochilteam/scraper-religions@1.0.2 license should be a valid SPDX license expression
-936 info package.json @bochilteam/scraper-texts@1.0.2 license should be a valid SPDX license expression
-937 info package.json @jimp/bmp@0.16.13 No repository field.
-938 info package.json @jimp/jpeg@0.16.13 No repository field.
-939 info package.json @jimp/custom@0.16.13 No repository field.
-940 info package.json @jimp/plugin-blit@0.16.13 No repository field.
-941 info package.json @jimp/plugin-blur@0.16.13 No repository field.
-942 info package.json @jimp/plugin-circle@0.16.13 No repository field.
-943 info package.json @jimp/plugin-color@0.16.13 No repository field.
-944 info package.json @jimp/plugin-contain@0.16.13 No repository field.
-945 info package.json @jimp/plugin-cover@0.16.13 No repository field.
-946 info package.json @jimp/gif@0.16.13 No repository field.
-947 info package.json @jimp/plugin-crop@0.16.13 No repository field.
+925 info package.json @bochilteam/scraper@4.2.4 license should be a valid SPDX license expression
+926 info package.json @bochilteam/scraper-bmkg@1.0.2 license should be a valid SPDX license expression
+927 info package.json @bochilteam/scraper-downloader@1.0.2 license should be a valid SPDX license expression
+928 info package.json @bochilteam/scraper-images@1.0.2 license should be a valid SPDX license expression
+929 info package.json @bochilteam/scraper-others@1.0.2 license should be a valid SPDX license expression
+930 info package.json @bochilteam/scraper-primbon@1.0.2 license should be a valid SPDX license expression
+931 info package.json @bochilteam/scraper-religions@1.0.2 license should be a valid SPDX license expression
+932 info package.json @bochilteam/scraper-news@1.0.2 license should be a valid SPDX license expression
+933 info package.json @bochilteam/scraper-sosmed@1.0.5 license should be a valid SPDX license expression
+934 info package.json @bochilteam/scraper-games@1.0.2 license should be a valid SPDX license expression
+935 info package.json @bochilteam/scraper-texts@1.0.2 license should be a valid SPDX license expression
+936 info package.json @jimp/bmp@0.16.13 No repository field.
+937 info package.json @jimp/plugin-blit@0.16.13 No repository field.
+938 info package.json @jimp/custom@0.16.13 No repository field.
+939 info package.json @jimp/gif@0.16.13 No repository field.
+940 info package.json @jimp/plugin-blur@0.16.13 No repository field.
+941 info package.json @jimp/jpeg@0.16.13 No repository field.
+942 info package.json @jimp/plugin-color@0.16.13 No repository field.
+943 info package.json @jimp/plugin-contain@0.16.13 No repository field.
+944 info package.json @jimp/plugin-cover@0.16.13 No repository field.
+945 info package.json @jimp/plugin-displace@0.16.13 No repository field.
+946 info package.json @jimp/plugin-crop@0.16.13 No repository field.
+947 info package.json @jimp/plugin-fisheye@0.16.13 No repository field.
 948 info package.json @jimp/plugin-dither@0.16.13 No repository field.
-949 info package.json @jimp/plugin-fisheye@0.16.13 No repository field.
-950 info package.json @jimp/plugin-displace@0.16.13 No repository field.
-951 info package.json @jimp/plugin-flip@0.16.13 No repository field.
-952 info package.json @jimp/plugin-gaussian@0.16.13 No repository field.
-953 info package.json @jimp/plugin-mask@0.16.13 No repository field.
-954 info package.json @jimp/plugin-normalize@0.16.13 No repository field.
-955 info package.json @jimp/plugin-print@0.16.13 No repository field.
-956 info package.json @jimp/plugin-rotate@0.16.13 No repository field.
-957 info package.json @jimp/plugin-scale@0.16.13 No repository field.
-958 info package.json @jimp/plugin-resize@0.16.13 No repository field.
-959 info package.json @jimp/plugin-shadow@0.16.13 No repository field.
-960 info package.json @jimp/plugin-threshold@0.16.13 No repository field.
-961 info package.json @jimp/png@0.16.13 No repository field.
-962 info package.json @jimp/tiff@0.16.13 No repository field.
-963 info package.json @jimp/types@0.16.13 No repository field.
+949 info package.json @jimp/plugin-gaussian@0.16.13 No repository field.
+950 info package.json @jimp/plugin-flip@0.16.13 No repository field.
+951 info package.json @jimp/plugin-print@0.16.13 No repository field.
+952 info package.json @jimp/plugin-invert@0.16.13 No repository field.
+953 info package.json @jimp/plugin-normalize@0.16.13 No repository field.
+954 info package.json @jimp/plugin-resize@0.16.13 No repository field.
+955 info package.json @jimp/plugin-mask@0.16.13 No repository field.
+956 info package.json @jimp/plugin-threshold@0.16.13 No repository field.
+957 info package.json @jimp/tiff@0.16.13 No repository field.
+958 info package.json @jimp/plugin-shadow@0.16.13 No repository field.
+959 info package.json @jimp/png@0.16.13 No repository field.
+960 info package.json @jimp/types@0.16.13 No repository field.
+961 info package.json @jimp/plugin-rotate@0.16.13 No repository field.
+962 info package.json @jimp/plugin-circle@0.16.13 No repository field.
+963 info package.json @jimp/plugins@0.16.13 No repository field.
 964 info package.json @jimp/utils@0.16.13 No repository field.
-965 info package.json @jimp/plugins@0.16.13 No repository field.
-966 info package.json @jimp/plugin-invert@0.16.13 No repository field.
+965 info package.json @jimp/plugin-scale@0.16.13 No repository field.
+966 info package.json perf_hooks@0.0.1 perf_hooks is also the name of a node core module.
 967 verbose readDependencies loading dependencies from /home/runner/zenonmdbot/package.json
 968 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/abab/package.json
 969 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/abbrev/package.json
@@ -1807,59 +1807,59 @@
 1725 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@aws-crypto/sha256-js/package.json
 1726 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@aws-crypto/supports-web-crypto/package.json
 1727 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@aws-crypto/util/package.json
-1728 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@babel/runtime/package.json
-1729 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@brandond/findthelyrics/package.json
-1730 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@bochilteam/scraper/package.json
-1731 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@bochilteam/scraper-bmkg/package.json
-1732 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@bochilteam/scraper-downloader/package.json
-1733 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@bochilteam/scraper-games/package.json
-1734 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@bochilteam/scraper-images/package.json
-1735 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@bochilteam/scraper-news/package.json
-1736 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@bochilteam/scraper-others/package.json
-1737 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@bochilteam/scraper-primbon/package.json
-1738 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@bochilteam/scraper-religions/package.json
-1739 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@bochilteam/scraper-sosmed/package.json
-1740 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@bochilteam/scraper-texts/package.json
-1741 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@discordjs/builders/package.json
-1742 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@discordjs/collection/package.json
-1743 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@eshaz/web-worker/package.json
-1744 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@eslint/eslintrc/package.json
-1745 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@eslint/js/package.json
-1746 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@eslint-community/eslint-utils/package.json
-1747 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@eslint-community/regexpp/package.json
-1748 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/client-cognito-identity/package.json
-1749 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/client-sso/package.json
-1750 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/client-sso-oidc/package.json
-1751 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/client-sts/package.json
-1752 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/core/package.json
-1753 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/credential-provider-cognito-identity/package.json
-1754 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/credential-provider-env/package.json
-1755 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/credential-provider-http/package.json
-1756 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/credential-provider-ini/package.json
-1757 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/credential-provider-node/package.json
-1758 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/credential-provider-process/package.json
-1759 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/credential-provider-sso/package.json
-1760 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/credential-provider-web-identity/package.json
-1761 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/credential-providers/package.json
-1762 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/middleware-host-header/package.json
-1763 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/middleware-logger/package.json
-1764 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/middleware-recursion-detection/package.json
-1765 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/middleware-user-agent/package.json
-1766 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/region-config-resolver/package.json
-1767 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/token-providers/package.json
-1768 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/types/package.json
-1769 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/util-endpoints/package.json
-1770 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/util-locate-window/package.json
-1771 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/util-user-agent-browser/package.json
-1772 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/util-user-agent-node/package.json
-1773 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@hapi/boom/package.json
-1774 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@hapi/hoek/package.json
-1775 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@javascript-obfuscator/escodegen/package.json
-1776 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@javascript-obfuscator/estraverse/package.json
-1777 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@humanwhocodes/config-array/package.json
-1778 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@humanwhocodes/module-importer/package.json
-1779 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@humanwhocodes/object-schema/package.json
-1780 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@green-code/music-track-data/package.json
+1728 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/client-cognito-identity/package.json
+1729 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/client-sso/package.json
+1730 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/client-sso-oidc/package.json
+1731 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/client-sts/package.json
+1732 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/core/package.json
+1733 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/credential-provider-cognito-identity/package.json
+1734 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/credential-provider-env/package.json
+1735 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/credential-provider-http/package.json
+1736 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/credential-provider-ini/package.json
+1737 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/credential-provider-node/package.json
+1738 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/credential-provider-process/package.json
+1739 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/credential-provider-sso/package.json
+1740 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/credential-provider-web-identity/package.json
+1741 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/credential-providers/package.json
+1742 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/middleware-host-header/package.json
+1743 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/middleware-logger/package.json
+1744 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/middleware-recursion-detection/package.json
+1745 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/middleware-user-agent/package.json
+1746 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/region-config-resolver/package.json
+1747 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/token-providers/package.json
+1748 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/types/package.json
+1749 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/util-endpoints/package.json
+1750 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/util-locate-window/package.json
+1751 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/util-user-agent-browser/package.json
+1752 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@aws-sdk/util-user-agent-node/package.json
+1753 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@babel/runtime/package.json
+1754 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@brandond/findthelyrics/package.json
+1755 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@bochilteam/scraper/package.json
+1756 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@bochilteam/scraper-bmkg/package.json
+1757 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@bochilteam/scraper-downloader/package.json
+1758 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@bochilteam/scraper-games/package.json
+1759 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@bochilteam/scraper-images/package.json
+1760 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@bochilteam/scraper-news/package.json
+1761 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@bochilteam/scraper-others/package.json
+1762 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@bochilteam/scraper-primbon/package.json
+1763 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@bochilteam/scraper-religions/package.json
+1764 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@bochilteam/scraper-sosmed/package.json
+1765 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@bochilteam/scraper-texts/package.json
+1766 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@discordjs/builders/package.json
+1767 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@discordjs/collection/package.json
+1768 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@eshaz/web-worker/package.json
+1769 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@eslint-community/eslint-utils/package.json
+1770 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@eslint-community/regexpp/package.json
+1771 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@eslint/eslintrc/package.json
+1772 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@eslint/js/package.json
+1773 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@green-code/music-track-data/package.json
+1774 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@hapi/boom/package.json
+1775 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@hapi/hoek/package.json
+1776 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@humanwhocodes/config-array/package.json
+1777 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@humanwhocodes/module-importer/package.json
+1778 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@humanwhocodes/object-schema/package.json
+1779 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@javascript-obfuscator/escodegen/package.json
+1780 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@javascript-obfuscator/estraverse/package.json
 1781 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@jimp/bmp/package.json
 1782 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@jimp/core/package.json
 1783 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@jimp/custom/package.json
@@ -1891,27 +1891,27 @@
 1809 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@jimp/tiff/package.json
 1810 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@jimp/types/package.json
 1811 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@jimp/utils/package.json
-1812 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@mongodb-js/saslprep/package.json
-1813 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@nechlophomeriaa/spotifydl/package.json
+1812 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@nechlophomeriaa/spotifydl/package.json
+1813 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@mongodb-js/saslprep/package.json
 1814 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@nodelib/fs.scandir/package.json
 1815 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@nodelib/fs.stat/package.json
 1816 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@nodelib/fs.walk/package.json
 1817 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@sapphire/async-queue/package.json
 1818 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@sapphire/shapeshift/package.json
-1819 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@sasmeee/igdl/package.json
-1820 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@protobufjs/aspromise/package.json
-1821 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@protobufjs/base64/package.json
-1822 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@protobufjs/codegen/package.json
-1823 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@protobufjs/eventemitter/package.json
-1824 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@protobufjs/fetch/package.json
-1825 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@protobufjs/float/package.json
-1826 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@protobufjs/inquire/package.json
-1827 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@protobufjs/path/package.json
-1828 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@protobufjs/pool/package.json
-1829 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@protobufjs/utf8/package.json
-1830 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@shineiichijo/marika/package.json
-1831 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@socket.io/component-emitter/package.json
-1832 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@sindresorhus/is/package.json
+1819 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@protobufjs/aspromise/package.json
+1820 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@protobufjs/base64/package.json
+1821 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@protobufjs/codegen/package.json
+1822 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@protobufjs/eventemitter/package.json
+1823 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@protobufjs/fetch/package.json
+1824 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@protobufjs/float/package.json
+1825 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@protobufjs/inquire/package.json
+1826 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@protobufjs/path/package.json
+1827 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@protobufjs/pool/package.json
+1828 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@protobufjs/utf8/package.json
+1829 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@sasmeee/igdl/package.json
+1830 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@sindresorhus/is/package.json
+1831 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@shineiichijo/marika/package.json
+1832 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@socket.io/component-emitter/package.json
 1833 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@smithy/abort-controller/package.json
 1834 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@smithy/config-resolver/package.json
 1835 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@smithy/core/package.json
@@ -1951,48 +1951,56 @@
 1869 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@smithy/util-stream/package.json
 1870 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@smithy/util-uri-escape/package.json
 1871 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@smithy/util-utf8/package.json
-1872 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@swc/helpers/package.json
-1873 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@szmarczak/http-timer/package.json
-1874 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@tokenizer/token/package.json
-1875 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@tootallnate/once/package.json
-1876 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@ungap/structured-clone/package.json
-1877 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@types/cacheable-request/package.json
-1878 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@types/cookie/package.json
-1879 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@types/cors/package.json
-1880 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@types/http-cache-semantics/package.json
-1881 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@types/keyv/package.json
-1882 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@types/long/package.json
-1883 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@types/minimatch/package.json
-1884 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@types/node/package.json
-1885 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@types/node-fetch/package.json
-1886 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@types/responselike/package.json
-1887 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@types/validator/package.json
-1888 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@types/webidl-conversions/package.json
-1889 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@types/whatwg-url/package.json
-1890 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@types/ws/package.json
-1891 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@thi.ng/bitstream/package.json
-1892 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@thi.ng/errors/package.json
-1893 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@vitalets/google-translate-api/package.json
-1894 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@wasm-audio-decoders/common/package.json
-1895 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@wasm-audio-decoders/flac/package.json
-1896 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@wasm-audio-decoders/ogg-vorbis/package.json
+1872 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@szmarczak/http-timer/package.json
+1873 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@thi.ng/bitstream/package.json
+1874 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@thi.ng/errors/package.json
+1875 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@tokenizer/token/package.json
+1876 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@types/cacheable-request/package.json
+1877 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@types/cookie/package.json
+1878 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@types/cors/package.json
+1879 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@types/http-cache-semantics/package.json
+1880 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@types/keyv/package.json
+1881 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@types/long/package.json
+1882 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@types/minimatch/package.json
+1883 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@types/node/package.json
+1884 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@types/node-fetch/package.json
+1885 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@types/responselike/package.json
+1886 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@types/validator/package.json
+1887 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@types/webidl-conversions/package.json
+1888 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@types/whatwg-url/package.json
+1889 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@types/ws/package.json
+1890 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@tootallnate/once/package.json
+1891 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@ungap/structured-clone/package.json
+1892 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@wasm-audio-decoders/common/package.json
+1893 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@wasm-audio-decoders/flac/package.json
+1894 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@wasm-audio-decoders/ogg-vorbis/package.json
+1895 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@vitalets/google-translate-api/package.json
+1896 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@whiskeysockets/baileys/package.json
 1897 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@xct007/frieren-scraper/package.json
-1898 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@whiskeysockets/baileys/package.json
-1899 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@xmldom/xmldom/package.json
-1900 verbose already installed skipping @vitalets/google-translate-api@^8.0.0 /home/runner/zenonmdbot
-1901 verbose stack Error: Unsupported URL Type: npm:@whiskeysockets/baileys@6.7.2
-1901 verbose stack     at parseUrl (/home/runner/zenonmdbot/node_modules/npm/node_modules/npm-package-arg/npa.js:169:13)
-1901 verbose stack     at npa (/home/runner/zenonmdbot/node_modules/npm/node_modules/npm-package-arg/npa.js:75:12)
-1901 verbose stack     at resolver (/home/runner/zenonmdbot/node_modules/npm/lib/install.js:845:42)
-1901 verbose stack     at Timeout._onTimeout (/home/runner/zenonmdbot/node_modules/npm/lib/install.js:840:7)
-1901 verbose stack     at listOnTimeout (node:internal/timers:573:17)
-1901 verbose stack     at process.processTimers (node:internal/timers:514:7)
-1902 verbose cwd /home/runner/zenonmdbot
-1903 error Linux 6.5.0-1025-gcp
-1904 error argv "/nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/bin/node" "/home/runner/zenonmdbot/node_modules/.bin/npm" "install"
-1905 error node v20.12.2
-1906 error npm  v2.15.12
-1907 error Unsupported URL Type: npm:@whiskeysockets/baileys@6.7.2
-1908 error If you need help, you may report this error at:
-1908 error     <https://github.com/npm/npm/issues>
-1909 verbose exit [ 1, true ]
+1898 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@xmldom/xmldom/package.json
+1899 verbose targetResolver reading package data from /home/runner/zenonmdbot/node_modules/@swc/helpers/package.json
+1900 verbose already installed skipping @adiwajshing/keyed-db@^0.2.4 /home/runner/zenonmdbot
+1901 verbose already installed skipping @bochilteam/scraper@^4.2.4 /home/runner/zenonmdbot
+1902 verbose already installed skipping @brandond/findthelyrics@^2.0.5 /home/runner/zenonmdbot
+1903 verbose already installed skipping @green-code/music-track-data@^2.0.3 /home/runner/zenonmdbot
+1904 verbose already installed skipping @hapi/boom@^10.0.1 /home/runner/zenonmdbot
+1905 verbose already installed skipping @nechlophomeriaa/spotifydl@1.0.11 /home/runner/zenonmdbot
+1906 verbose already installed skipping @sasmeee/igdl@^1.0.0 /home/runner/zenonmdbot
+1907 verbose already installed skipping @shineiichijo/marika@^2.0.6 /home/runner/zenonmdbot
+1908 verbose already installed skipping @vitalets/google-translate-api@^8.0.0 /home/runner/zenonmdbot
+1909 verbose stack Error: Unsupported URL Type: npm:@whiskeysockets/baileys@6.7.2
+1909 verbose stack     at parseUrl (/home/runner/zenonmdbot/node_modules/npm/node_modules/npm-package-arg/npa.js:169:13)
+1909 verbose stack     at npa (/home/runner/zenonmdbot/node_modules/npm/node_modules/npm-package-arg/npa.js:75:12)
+1909 verbose stack     at resolver (/home/runner/zenonmdbot/node_modules/npm/lib/install.js:845:42)
+1909 verbose stack     at Timeout._onTimeout (/home/runner/zenonmdbot/node_modules/npm/lib/install.js:840:7)
+1909 verbose stack     at listOnTimeout (node:internal/timers:573:17)
+1909 verbose stack     at process.processTimers (node:internal/timers:514:7)
+1910 verbose cwd /home/runner/zenonmdbot
+1911 error Linux 6.5.0-1025-gcp
+1912 error argv "/nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/bin/node" "/home/runner/zenonmdbot/node_modules/.bin/npm" "install"
+1913 error node v20.12.2
+1914 error npm  v2.15.12
+1915 error Unsupported URL Type: npm:@whiskeysockets/baileys@6.7.2
+1916 error If you need help, you may report this error at:
+1916 error     <https://github.com/npm/npm/issues>
+1917 verbose exit [ 1, true ]
