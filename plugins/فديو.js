@@ -103,7 +103,7 @@ renderLargerThumbnail: true
 } catch {
 }}}}}
 }  
-if (command == 'ز2فيديو') {
+if (command == 'tv') {
 try {
 let qu = '480'
 let q = qu + 'p'
@@ -131,7 +131,7 @@ await conn.sendMessage(m.chat, { video: { url: n2 }, fileName: `${n}.mp4`, mimet
 }} catch {
 }
 }
-handler.command = ['اغنيه', '14فيديو']
+handler.command = ['اغنيه', 'tv']
 handler.exp = 0
 export default handler
 
