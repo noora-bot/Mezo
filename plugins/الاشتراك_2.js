@@ -13,10 +13,10 @@ const handler = async (m, { conn }) => {
                     header: { title: 'Elsony' },
                     body: {
                         text: `━ ╼╃ ⌬〔﷽〕⌬ ╄╾ ━
-> Zenon↳🐢↲𝐁𝐎𝐓
+> PLUTO↳🐢↲𝐁𝐎𝐓
 > 〔 الاشتراك الاسبوعي┊ ˼‏ 🚀˹ ↶〕
 *⋅ ───━ •﹝👑﹞• ━─── ⋅*
-            *زينو🐢ــن بــ🤖ــوت*
+            *🐢اشتراك بلوتو*
 *⋅ ───━ •﹝👑﹞• ━─── ⋅*
 ╗───¤﹝السعر ↶ 💵﹞
 > •┊˹👾˼┊- رقم وهمي اسبوعيا
@@ -34,7 +34,7 @@ const handler = async (m, { conn }) => {
 ╝───────────────¤
 *⋅ ───━ •﹝👑﹞• ━─── ⋅*
 > 〔تـوقـيـع┊ ˼‏📜˹ 〕↶
-⌠Zenon↳🐢↲𝐁𝐎𝐓⌡
+⌠PLUTO↳🐢↲𝐁𝐎𝐓⌡
 *⋅ ───━ •﹝👑﹞• ━─── ⋅*`,
                         subtitle: "Elsony"
                     },
@@ -46,9 +46,13 @@ const handler = async (m, { conn }) => {
                         buttons: [
                             {
                                 name: "cta_url",
-                                buttonParamsJson: '{"display_text":"⌈🚀╎𝐁𝐔𝐘 ˹💰˼ 𝐍𝐎𝐖╎🚀⌋","url":"https://api.whatsapp.com/send?phone=+201061419002","merchant_url":"https://api.whatsapp.com/send?phone=+201061419002"}'
+                                buttonParamsJson: '{"display_text":"⌈🚀╎𝐁𝐔𝐘 ˹💰˼ 𝐍𝐎𝐖╎🚀⌋𝐄𝐋𝐒𝐎𝐍𝐘","url":"https://api.whatsapp.com/send?phone=+201061419002","merchant_url":"https://api.whatsapp.com/send?phone=+201020306059"}'
                             },
                             {
+                                name: "cta_url",
+                                    buttonParamsJson: '{"display_text":"⌈🚀╎𝐁𝐔𝐘 ˹💰˼ 𝐍𝐎𝐖 ╎🚀:𝐅𝐋𝐄𝐗⌋","url":"https://api.whatsapp.com/send?phone=+201020306059","merchant_url":"https://api.whatsapp.com/send?phone=+201020306059"}'
+                                },
+                                {
                                 name: "cta_url",
                                 buttonParamsJson: '{"display_text":"⌈📲╎قـنـاة الـمـطـور╎📲⌋","url":"https://chat.whatsapp.com/BrQVKh6Kt0X8LuMVWzW9XR","merchant_url":"https://chat.whatsapp.com/BrQVKh6Kt0X8LuMVWzW9XR"}'
                             }

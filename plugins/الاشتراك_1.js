@@ -4,7 +4,7 @@ const { prepareWAMessageMedia } = pkg;
 const handler = async (m, { conn }) => {
     await conn.sendMessage(m.chat, { react: { text: '🚀', key: m.key } });
 
-    const Elsony = 'https://telegra.ph/file/32329ff221ac7bbb7ab7b.jpg';
+    const Elsony = 'https://telegra.ph/file/5109a6648dbe97134ff1f.jpg';
 
     let messageContent = {
         viewOnceMessage: {

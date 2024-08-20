@@ -1,21 +1,20 @@
-import { randomBytes } from 'crypto'
+let handler = async (m, { text, conn, command, usedPrefix }) => {
 
-let handler = async (m, { conn, text }) => {
-  let chats = Object.entries(conn.chats).filter(([_, chat]) => chat.isChats).map(v => v[0])
-  let cc = conn.serializeM(text ? m : m.quoted ? await m.getQuotedObj() : false || m)
-  let teks = text ? text : cc.text
-  conn.reply(m.chat, `جاري التجهيز *عدد الجروبات:* ${chats.length}`, m)
-  for (let id of chats) await conn.copyNForward(id, conn.cMod(m.chat, cc, /bc|broadcast|tx/i.test(teks) ? teks : `${teks}` ), true).catch(_ => _)
-  m.reply('تم التحويل')
-}
-handler.help = ['tx']
-handler.tags = ['owner']
-handler.command = /^(نشر)$/i
-handler.owner = true
+if (!text) return conn.sendMessage(m.chat, {text: `@${m.sender.split('@')[0]} أدخل السؤال أولا يا صديقي
+مثال: ${usedPrefix + command} البوت يحبني
+`.trim(), mentions: [m.sender] }, { quoted: m });
 
+let cap = `
+╭──────≼𝕊ℍ𝔸𝕎𝔸ℤ𝔸-𝔹𝕆𝕋≽──────╮
+┆ السائل: @${m.sender.split('@')[0]}
+┆ السؤال: ${command} ${text}
+┆ الاجابة: ${['نعم','ممكن','في الاغلب نعم','في الاغلب لا','لا','مستحيل'].getRandom()}
+╰──────≼𝕊ℍ𝔸𝕎𝔸ℤ𝔸-𝔹𝕆𝕋≽──────╯
+`.trim();
+
+await conn.sendMessage(m.chat, {text: cap, mentions: [m.sender] }, { quoted: m });
+};
+handler.help = ['pregunta <texto>?']
+handler.tags = ['kerang']
+handler.command = /^هل$/i
 export default handler
-
-const more = String.fromCharCode(8206)
-const readMore = more.repeat(4001)
-
-const randomID = length => randomBytes(Math.ceil(length * .5)).toString('hex').slice(0, length)
