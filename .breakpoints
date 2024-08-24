@@ -4,8 +4,16 @@
       {
         "id": "41dfdf77-b9d4-45ce-b733-37f4e01b173d",
         "line": 17,
-        "version": 1,
+        "version": 3,
         "index": 425
+      }
+    ],
+    "plugins/ش.js": [
+      {
+        "id": "684e7039-bff6-4af1-8407-507fdd3c86e6",
+        "line": 37,
+        "version": 23,
+        "index": 1225
       }
     ]
   }

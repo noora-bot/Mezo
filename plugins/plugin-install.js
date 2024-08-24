@@ -3,7 +3,7 @@ import fs from 'fs'
 import path from 'path'
 
 let handler = async (m, { text, usedPrefix, command }) => {
-  if (!text) throw `Please provide a plugin URL`
+  if (!text) throw `Please provide a plugin URL https://github.com/BrunoSobrino/TheMystic-Bot-MD`
 
   // Extract the Gist ID from the URL
   const gistId = text.match(/(?:\/|gist\.github\.com\/)([a-fA-F0-9]+)/)

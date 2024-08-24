@@ -1,4 +1,4 @@
-let handler = async (m, { text, conn, command, usedPrefix }) => {
+GTlet handler = async (m, { text, conn, command, usedPrefix }) => {
 
 if (!text) return conn.sendMessage(m.chat, {text: `@${m.sender.split('@')[0]} أدخل السؤال أولا يا صديقي
 مثال: ${usedPrefix + command} البوت يحبني
