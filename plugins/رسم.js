@@ -1,4 +1,4 @@
-import fetch from 'node-fetch';
+.gps ahme | import fetch from 'node-fetch';
 
 const handler = async (m, {conn, text, usedPrefix, command}) => {
     if (!text) throw اكتب نص عشان أعمل صورة بـ DALL-E (الذكاء الاصطناعي)\n\n*مثال:\n*ɞ ${usedPrefix + command} قطط بتعيط\n*ɞ ${usedPrefix + command} قطة لونها بنفسجي مع أزرق موجودة على كوكب المشترى، بتنور الكون بجمالها بتأثير مينيملست.;
@@ -17,5 +17,5 @@ const handler = async (m, {conn, text, usedPrefix, command}) => {
     }
 }
 
-handler.command = ['رسم'];
+handler.command = ['بو'];
 export default handler;
