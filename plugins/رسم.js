@@ -17,5 +17,5 @@ const handler = async (m, {conn, text, usedPrefix, command}) => {
     }
 }
 
-handler.command = ['بو'];
+handler.command = ['رسم'];
 export default handler;
