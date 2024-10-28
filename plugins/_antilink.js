@@ -7,20 +7,20 @@ export async function before(m, {conn, isAdmin, isBotAdmin }) {
     let chat = global.db.data.chats[m.chat]
     let bot = global.db.data.settings[this.user.jid] || {}
     const isGroupLink = linkRegex.exec(m.text)
-
+//chat.antiLink
     if (chat.antiLink && isGroupLink && !isAdmin) {
         if (isBotAdmin) {
             const linkThisGroup = `https://chat.whatsapp.com/${await this.groupInviteCode(m.chat)}`
             if (m.text.includes(linkThisGroup)) return !0
         }
-        await conn.reply(m.chat, `*≡ تم اكتشاف الرابط*
+        await conn.reply(m.chat, `*≡ تم اكتشاف رابط*
             
-*نحن لا نسمح بالروابط من المجموعات الأخرى*
-طير ياورع *@${m.sender.split('@')[0]}*  *سيتم طردك من المجموعة* ${isBotAdmin ? '' : '\n\n*انا مش مشرف عشان كده هيص لغايت محد يديني اشراف* :"v'}`, null, { mentions: [m.sender] } )
-        if (isBotAdmin && chat.antiLink) {
-        	await conn.sendMessage(m.chat, { delete: m.key })
-            await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
-        } else if (!chat.antiLink) return //m.reply('')
+    نحن لا نسمح بالروابط من مجموعات أخرى
+    عذراً @${m.sender.split('@')[0]} ستتم طردك من المجموعة ${isBotAdmin ? '' : '\n\nأنا لست مسؤولاً لذلك لا يمكنني طردك :"v'}`, null, { mentions: [m.sender] } )
+    if (isBotAdmin && chat.antiLink) {
+    await conn.sendMessage(m.chat, { delete: m.key })
+    await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
+    } else if (!chat.antiLink) return //m.reply('')
     }
     return !0
-}
+    }
