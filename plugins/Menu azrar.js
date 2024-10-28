@@ -37,7 +37,7 @@ conn.relayMessage(m.chat, { viewOnceMessage: { message: { interactiveMessage: { 
 *• ──╾⊱﹝🖥﹞⊰╼── •*
 ╗───¤مــعلــومــات الــ🤖بــوت
 > إســم الــبــوت:بلـوتو 
-> •الــمــطــور :\nMohamed Elsony\n> FLEX-MD
+> • الــمــطــور :ستيف
 > •مــدة الــتــشــغــيل : ${uptime}
 *• ──╾⊱﹝🖥﹞⊰╼── •*
 *~⌬ تــ✍︎ــوقــيــع ↡~*🖋️
@@ -158,7 +158,7 @@ conn.relayMessage(m.chat, { viewOnceMessage: { message: { interactiveMessage: { 
                    },
                    {
              name: "cta_url",
-             buttonParamsJson: '{"display_text":"⌈📲╎قـنـاة الـمـطـور╎📲⌋","url":"https://whatsapp.com/channel/0029Vag5dT01t90dVIah1X1p","merchant_url":"https://whatsapp.com/channel/0029Vag5dT01t90dVIah1X1p"}'
+             buttonParamsJson: '{"display_text":"⌈📲╎قـنـاة الـمـطـور╎📲⌋","url":"","merchant_url":""}'
                           }
                       ]
                   }
