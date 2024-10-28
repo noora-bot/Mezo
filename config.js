@@ -13,8 +13,8 @@ import { en, es, id, ar, pt } from "./lib/idiomas/total-idiomas.js"
 // [ES] > Agrega el número que será Bot y los que serán propietarios.
 // [EN] > Add the number that will be Bot and those that will be owners.
 global.owner = [
-["201061419002", 'Mohamed Elsony', true],
-["201020306059", 'FLEX-MD', true],//𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 💖🐈
+["967783179256", 'ستيف', true],
+["265884215241", 'ماس', true],//𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 💖🐈
 ]
 
 global.mods = []
@@ -113,9 +113,9 @@ global.moment = moment
 // [ES] > Agregate a ti, colaboradores o ayudates, aparecerá en el comando de lista de contactos.
 // [EN] > Adding yourself, collaborators or helpers will appear in the contact list command.
 global.official = [ // Agregate si eres Owner
-["201061419002", 'Mohamed Elsony', 1], 
-["201020306059", 'FLEX-MD', 1],  
-["201061419002", 'Mohamed Elsony', 1]]
+["967783179256", 's', 1], 
+["967783179256", 's', 1],  
+["967783179256", 's', 1]]
 
 global.mail = '' // Add email
 global.desc = '' // Add short description (20 caractres max)
@@ -160,9 +160,9 @@ global.eg = '╰⊱💚⊱ *تم بنجاح | 𝙎𝙐𝘾𝘾𝙀𝙎𝙎* ⊱�
 global.exito = eg
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
-global.wm = "pluto bot🤖"
-global.igfg = "PLUTO↳🐢↲𝐁𝐎𝐓"
-global.nomorown = "201061419002"
+global.wm = "ستيف bot🤖"
+global.igfg = "ستيف↳🐢↲𝐁𝐎𝐓"
+global.nomorown = "967783179256"
 global.pdoc = ["application/vnd.openxmlformats-officedocument.presentationml.presentation", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "application/vnd.ms-excel", "application/msword", "application/pdf", "text/rtf"]
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
