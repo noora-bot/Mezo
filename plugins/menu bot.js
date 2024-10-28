@@ -53,14 +53,14 @@ conn.relayMessage(m.chat, { viewOnceMessage: { message: { interactiveMessage: { 
                                                   id: '.معلومه'
                                               },
                                               {
-                                                  header: 'معلومات عن محمد السوني',
-                                                  title: 'معلومات السوني',
+                                                  header: 'معلومات عن ستيف',
+                                                  title: 'معلومات ستيف',
                                                   description: '',
                                                   id: ''
                                               },
                                               {
-                                                  header: 'معلومات عن فلكمس',
-                                                  title: 'معلومات فلكس ',
+                                                  header: 'معلومات عن ماس',
+                                                  title: 'معلومات ماس ',
                                                   description: '',
                                                   id: ''
                                               },
