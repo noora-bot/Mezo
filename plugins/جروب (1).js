@@ -7,8 +7,8 @@ let handler = async (m, { conn, args }) => {
       ' > ‌🇬‌🇴 ‌🇯‌🇴| 🐼❤️', 
       null, 
       [
-        ['قفل المجموعة 🔒', `.جروب قفل`],
-        ['فتح المجموعة 🔓', `.جروب فتح`]
+        ['قفل المجموعة 🔒', `.قروب قفل`],
+        ['فتح المجموعة 🔓', `.قروب فتح`]
       ], 
       m
     );
@@ -24,8 +24,8 @@ let handler = async (m, { conn, args }) => {
   if (isClose === undefined) {
     throw `
 *❒ أخــتر :*
-*❒ .جروب قفل*
-*❒ .جروب فتح*
+*❒ .قروب قفل*
+*❒ .قروب فتح*
 `.trim();
   }
 
@@ -39,7 +39,7 @@ let handler = async (m, { conn, args }) => {
 
 handler.help = ['group *open/close*']
 handler.tags = ['group']
-handler.command = ['group', 'جروب'] 
+handler.command = ['group', 'قروب'] 
 handler.admin = true
 handler.botAdmin = true
 
