@@ -47,11 +47,11 @@ const handler = async (m, { conn }) => {
                         buttons: [
                             {
                                 name: "cta_url",
-                                buttonParamsJson: '{"display_text":"⌈🚀╎𝐁𝐔𝐘 ˹💰˼ 𝐍𝐎𝐖╎🚀⌋","url":"https://api.whatsapp.com/send?phone=+201061419002","merchant_url":"https://api.whatsapp.com/send?phone=+201020306059"}'
+                                buttonParamsJson: '{"display_text":"⌈🚀╎𝐁𝐔𝐘 ˹💰˼ 𝐍𝐎𝐖╎🚀⌋","url":"https://api.whatsapp.com/send?phone=+967783179256","merchant_url":"https://api.whatsapp.com/send?phone=+967783179256"}'
                             },
                             {
                                 name: "cta_url",
-                                buttonParamsJson: '{"display_text":"⌈📲╎قـنـاة الـمـطـور╎📲⌋","url":"https://chat.whatsapp.com/BrQVKh6Kt0X8LuMVWzW9XR","merchant_url":"https://chat.whatsapp.com/BrQVKh6Kt0X8LuMVWzW9XR"}'
+                                buttonParamsJson: '{"display_text":"⌈📲╎قـنـاة الـمـطـور╎📲⌋","url":"","merchant_url":""}'
                             }
                         ]
                     }
