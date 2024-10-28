@@ -102,7 +102,7 @@ let img = await getBuffer(res.imagen)
 await conn.sendButton(m.chat, wm, info, songInfo[0].thumbnail, [
 	['الـمـطـور', .المطور],
 	['لـاوامـر الـتـحـمـيـل', .التحميل]
-  ], null, [['قــنـاتـنـا', https://whatsapp.com/channel/0029VaffkVGAYlUKWeIMlR0X]], m)
+  ], null, [['قــنـاتـنـا', https:/]], m)
 } catch (error) {
 }}
 handler.command = /^(اسبوتي|سيبوتيفاي)$/i
