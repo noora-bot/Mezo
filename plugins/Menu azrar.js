@@ -41,9 +41,9 @@ conn.relayMessage(m.chat, { viewOnceMessage: { message: { interactiveMessage: { 
 > •مــدة الــتــشــغــيل : ${uptime}
 *• ──╾⊱﹝🖥﹞⊰╼── •*
 *~⌬ تــ✍︎ــوقــيــع ↡~*🖋️
-*⌞🖥┊Pluto ス F.M.P┊🖥⌝*
+*⌞🖥┊ستيف ス F.M.P┊🖥⌝*
 *• ──╾⊱﹝🖥﹞⊰╼── •*
-> Copyright © 2024 Pluto`,subtitle: "PLUTO",},header: { hasMediaAttachment: true,...(await prepareWAMessageMedia({ image : { url: PLUTO } }, { upload: conn.waUploadToServer }, {quoted: m}))},
+> Copyright © 2024 ستيف`,subtitle: "PLUTO",},header: { hasMediaAttachment: true,...(await prepareWAMessageMedia({ image : { url: PLUTO } }, { upload: conn.waUploadToServer }, {quoted: m}))},
                   contextInfo: {
                       mentionedJid: [m.sender],
                       isForwarded: false,
