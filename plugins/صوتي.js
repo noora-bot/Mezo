@@ -46,5 +46,5 @@ const obitosar = async (m, { conn, args, command, usedPrefix }) => {
     }
 };
 
-obitosar.command = /^(صوتي_ai)$/i;
+obitosar.command = /^(فويس)$/i;
 export default obitosar;
