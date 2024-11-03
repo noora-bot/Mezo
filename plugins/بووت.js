@@ -24,5 +24,5 @@ const handler = async (m, { conn, text }) => {
 
 handler.help = ['S A R'];
 handler.tags = ['ai'];
-handler.command = /^(بووت|chatgpt)$/i;
+handler.command = /^(بوت|chatgpt)$/i;
 export default handler;
