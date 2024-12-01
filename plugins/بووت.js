@@ -1,28 +1,68 @@
-import fetch from 'node-fetch';
+import fetch from "node-fetch"
 
-const handler = async (m, { conn, text }) => {
-  try {
-    const apiURL = `https://joanimi-apis-for-devs.vercel.app/api/gpt4role?text=${encodeURIComponent(text)}&role=عربي اتكلم`;
-
-    if (!text) {
-      return conn.reply(m.chat, 'اكتب الرسالة اللي تبي ترسلها لـ ', m);
+let handler = async (m, {
+    conn,
+    args,
+    usedPrefix,
+    command
+}) => {
+    let text
+    if (args.length >= 1) {
+        text = args.slice(0).join(" ")
+    } else if (m.quoted && m.quoted.text) {
+        text = m.quoted.text
+    } else throw "ex : \n *.gptvoc*   ما الاسلام"
+    await m.reply(wait)
+    try {
+        let res = await ChatGpt(text)
+        await m.reply(res.content)
+    } catch (e) {
+        await m.reply(eror)
     }
+}
+handler.help = ["gptvoc"]
+handler.tags = ["ai"];
+handler.command = /^(بوت)$/i
+handler.register = handler.limit = false
 
-    const response = await fetch(apiURL);
-    const data = await response.json();
+export default handler
 
-    if (data && data.result) {
-      conn.reply(m.chat, data.result, m);
-    } else {
-      conn.reply(m.chat, 'للأسف مافي رد متاح الان.', m);
+/* New Line */
+
+const ChatGpt = async (prompt) => {
+    const url = "https://apps.voc.ai/api/v1/plg/prompt_stream";
+
+    try {
+        const response = await fetch(url, {
+            method: "POST",
+            credentials: "include",
+            mode: "cors",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                prompt
+            }),
+        });
+
+        const inputString = await response.text();
+        const dataArray = inputString.split('\n\n');
+
+        const regex = /data: (\{.*?\})/g;
+        const jsonMatches = [];
+        let match;
+
+        while ((match = regex.exec(dataArray[0])) !== null) {
+            jsonMatches.push(match[1]);
+        }
+
+        const oregex = /"data": ({.*?})/;
+        const endsTrueArray = jsonMatches.slice(-1);
+        const output = endsTrueArray[0].match(oregex);
+
+        return output ? JSON.parse(output[1]) : null;
+    } catch (error) {
+        console.error("Error fetching data:", error);
+        return null;
     }
-  } catch (error) {
-    console.error(error);
-    conn.reply(m.chat, 'حصل خطأ في التواصل مع الـ API.', m);
-  }
 };
-
-handler.help = ['S A R'];
-handler.tags = ['ai'];
-handler.command = /^(بوت|chatgpt)$/i;
-export default handler;
